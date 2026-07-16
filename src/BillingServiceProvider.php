@@ -6,6 +6,7 @@ namespace Cbox\Id\Billing;
 
 use Cbox\Billing\Client\BillingManagement;
 use Cbox\Console\Kit\Facades\Console;
+use Illuminate\Contracts\View\Factory;
 use Illuminate\Support\ServiceProvider;
 use Livewire\Volt\Volt;
 use Throwable;
@@ -58,7 +59,7 @@ final class BillingServiceProvider extends ServiceProvider
             return '';
         }
 
-        return $this->app->make(\Illuminate\Contracts\View\Factory::class)
+        return $this->app->make(Factory::class)
             ->make('id-billing::components.plan-card', ['subscription' => $subscription])
             ->render();
     }
