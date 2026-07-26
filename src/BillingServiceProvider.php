@@ -17,7 +17,7 @@ use Throwable;
  * console-kit, all gated on the `billing` feature, which is active only when the
  * billing client is wired. Removed, the console is the clean, billing-free app.
  */
-final class BillingServiceProvider extends ServiceProvider
+class BillingServiceProvider extends ServiceProvider
 {
     public function boot(): void
     {
