@@ -1,0 +1,9 @@
+{
+  "upstream_head": "73e5997758e8a4de569bb84b46a3dff3b4652851",
+  "upstream_branch": "main",
+  "target_version": "0.3.0",
+  "status": "unpublished candidate based on actual upstream history",
+  "source_manifest": "evidence/laravel-id-billing-final-source-hashes.json",
+  "publication_parent": "73e5997758e8a4de569bb84b46a3dff3b4652851",
+  "restored_public_files": []
+}

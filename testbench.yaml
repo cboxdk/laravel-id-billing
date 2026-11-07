@@ -1,0 +1,3 @@
+providers:
+  - Cbox\Console\Kit\ConsoleKitServiceProvider
+  - Cbox\Id\Billing\BillingServiceProvider
